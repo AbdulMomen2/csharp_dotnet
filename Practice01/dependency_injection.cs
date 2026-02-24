@@ -10,7 +10,7 @@ namespace Practice01
 
     public class Saw
     {
-        public void use()
+        public void Use()
         {
             Console.WriteLine("Sawing Wood");
         }
@@ -42,19 +42,6 @@ namespace Practice01
         }
     }
 
-    internal class Pogram
-    {
-        static void Main(string[] args)
-        {
 
-            Hammer hammer = new Hammer();
-            Saw saw= new Saw();
-            Builder builder = new Builder(hammer,saw);
-
-            builder.BuildHouse();
-            
-            Console.ReadLine();
-        }
-    }
 }
 
