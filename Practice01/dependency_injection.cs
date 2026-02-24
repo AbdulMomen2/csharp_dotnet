@@ -46,7 +46,14 @@ namespace Practice01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+
+            Hammer hammer = new Hammer();
+            Saw saw= new Saw();
+            Builder builder = new Builder(hammer,saw);
+
+            builder.BuildHouse();
+            
+            Console.ReadLine();
         }
     }
 }
